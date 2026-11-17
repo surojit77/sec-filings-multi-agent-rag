@@ -1,0 +1,2 @@
+{"id": "m-tsla-2025-incident-testing", "type": "manual", "question": "How does Tesla test and prepare its response to cybersecurity incidents?", "ticker": "TSLA", "fiscal_year": 2025, "form": "10-K", "evidence_strings": ["tabletop exercises"]}
+{"id": "m-tsla-2025-iso-cert", "type": "manual", "question": "Which security certification does Tesla hold for its information security management system?", "ticker": "TSLA", "fiscal_year": 2025, "form": "10-K", "evidence_strings": ["ISO/IEC 27001"]}

@@ -1,0 +1,2896 @@
+{
+  "k": 5,
+  "router_accuracy": 1,
+  "filters": "ticker_year",
+  "n_total": 173,
+  "n_answerable": 173,
+  "skipped_not_in_index": [],
+  "results": {
+    "bm25": {
+      "all": {
+        "recall@k": 0.7052023121387283,
+        "mrr@10": 0.5252637856684099,
+        "n": 173
+      },
+      "xbrl": {
+        "recall@k": 0.6097560975609756,
+        "mrr@10": 0.41973803071364046,
+        "n": 123
+      },
+      "manual": {
+        "recall@k": 1,
+        "mrr@10": 0.6666666666666666,
+        "n": 2
+      },
+      "synthetic-paraphrase": {
+        "recall@k": 1,
+        "mrr@10": 0.84375,
+        "n": 24
+      },
+      "synthetic-keyword": {
+        "recall@k": 0.875,
+        "mrr@10": 0.7358134920634921,
+        "n": 24
+      }
+    },
+    "dense": {
+      "all": {
+        "recall@k": 0.884393063583815,
+        "mrr@10": 0.627034590329388,
+        "n": 173
+      },
+      "xbrl": {
+        "recall@k": 0.8780487804878049,
+        "mrr@10": 0.5772422248032004,
+        "n": 123
+      },
+      "manual": {
+        "recall@k": 1,
+        "mrr@10": 0.75,
+        "n": 2
+      },
+      "synthetic-paraphrase": {
+        "recall@k": 0.9166666666666666,
+        "mrr@10": 0.8055555555555556,
+        "n": 24
+      },
+      "synthetic-keyword": {
+        "recall@k": 0.875,
+        "mrr@10": 0.6934523809523809,
+        "n": 24
+      }
+    },
+    "hybrid": {
+      "all": {
+        "recall@k": 0.8034682080924855,
+        "mrr@10": 0.6363817781447839,
+        "n": 173
+      },
+      "xbrl": {
+        "recall@k": 0.7479674796747967,
+        "mrr@10": 0.5621467286101433,
+        "n": 123
+      },
+      "manual": {
+        "recall@k": 1,
+        "mrr@10": 0.6666666666666666,
+        "n": 2
+      },
+      "synthetic-paraphrase": {
+        "recall@k": 0.9583333333333334,
+        "mrr@10": 0.8625,
+        "n": 24
+      },
+      "synthetic-keyword": {
+        "recall@k": 0.9166666666666666,
+        "mrr@10": 0.7881944444444444,
+        "n": 24
+      }
+    },
+    "routed": {
+      "all": {
+        "recall@k": 0.8959537572254336,
+        "mrr@10": 0.6471144141664373,
+        "n": 173
+      },
+      "xbrl": {
+        "recall@k": 0.8780487804878049,
+        "mrr@10": 0.5772422248032004,
+        "n": 123
+      },
+      "manual": {
+        "recall@k": 1,
+        "mrr@10": 0.6666666666666666,
+        "n": 2
+      },
+      "synthetic-paraphrase": {
+        "recall@k": 0.9583333333333334,
+        "mrr@10": 0.8625,
+        "n": 24
+      },
+      "synthetic-keyword": {
+        "recall@k": 0.9166666666666666,
+        "mrr@10": 0.7881944444444444,
+        "n": 24
+      }
+    }
+  },
+  "per_query": {
+    "bm25": [
+      {
+        "id": "xbrl-AAPL-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-net-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2025-gross-profit",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AAPL-2025-r-d-expense",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AAPL-2026-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2026-net-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2026-gross-profit",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AAPL-2026-r-d-expense",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-AAPL-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2026-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-AMZN-2024-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2024-net-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-eps-diluted",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AMZN-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-revenue",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-AMZN-2025-net-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-eps-diluted",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AMZN-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-revenue",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-GOOGL-2024-net-income",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-eps-diluted",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-cash-flow",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-GOOGL-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2025-revenue",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-GOOGL-2025-net-income",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-GOOGL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-JPM-2025-revenue",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-JPM-2025-net-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-JPM-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-JPM-2025-operating-cash-flow",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-JPM-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-META-2024-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2024-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2024-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-META-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-META-2025-operating-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-META-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-META-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-MSFT-2025-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-income",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-MSFT-2025-gross-profit",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-MSFT-2025-r-d-expense",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-MSFT-2025-eps-diluted",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2026-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-net-income",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-income",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-MSFT-2026-gross-profit",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2026-r-d-expense",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-MSFT-2026-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2026-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-revenue",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-gross-profit",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-NVDA-2025-r-d-expense",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-NVDA-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-NVDA-2026-revenue",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2026-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-gross-profit",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2026-r-d-expense",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-NVDA-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-cash-flow",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-NVDA-2026-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-TSLA-2024-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2024-gross-profit",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-eps-diluted",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-cash-flow",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2025-gross-profit",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-eps-diluted",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "m-tsla-2025-incident-testing",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "m-tsla-2025-iso-cert",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-4",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-AAPL-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-4",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-AMZN-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-1",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-GOOGL-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-4",
+        "first_relevant_rank": 9
+      },
+      {
+        "id": "syn-GOOGL-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-1",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-JPM-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-3",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-JPM-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-5",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-JPM-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-1",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "syn-META-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-4",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-META-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-6",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "syn-MSFT-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-2",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-MSFT-2026-3",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-MSFT-2026-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-1",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-NVDA-2026-2",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-NVDA-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-4",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "syn-NVDA-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-2",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-TSLA-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-6",
+        "first_relevant_rank": 0
+      }
+    ],
+    "dense": [
+      {
+        "id": "xbrl-AAPL-2025-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AAPL-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-total-assets",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-AAPL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2026-net-income",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-income",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AAPL-2026-gross-profit",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-AAPL-2026-r-d-expense",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AAPL-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-total-assets",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-AAPL-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2024-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-net-income",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2025-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2024-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-cash-flow",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-GOOGL-2024-total-assets",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-GOOGL-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-cash-flow",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-GOOGL-2025-total-assets",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-GOOGL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-JPM-2025-revenue",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-JPM-2025-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-JPM-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-JPM-2025-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-JPM-2025-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-META-2024-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2024-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-META-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-META-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-total-assets",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-MSFT-2025-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-gross-profit",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-r-d-expense",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-MSFT-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-total-assets",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-MSFT-2026-gross-profit",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2026-r-d-expense",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-MSFT-2026-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-total-assets",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-NVDA-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-total-assets",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-NVDA-2026-net-income",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-income",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-NVDA-2026-gross-profit",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-NVDA-2026-r-d-expense",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-NVDA-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-cash-flow",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-NVDA-2026-total-assets",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2024-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2024-eps-diluted",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-cash-flow",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-total-assets",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-TSLA-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-revenue",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-TSLA-2025-net-income",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-income",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-TSLA-2025-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2025-eps-diluted",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-cash-flow",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2025-total-assets",
+        "first_relevant_rank": 9
+      },
+      {
+        "id": "xbrl-TSLA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "m-tsla-2025-incident-testing",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "m-tsla-2025-iso-cert",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-1",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-AAPL-2026-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-4",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-AAPL-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-4",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-AMZN-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-3",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-GOOGL-2025-4",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-GOOGL-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-6",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-JPM-2025-1",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-JPM-2025-2",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-JPM-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-1",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-META-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-4",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-META-2025-5",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-META-2025-6",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "syn-MSFT-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-2",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-MSFT-2026-3",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-MSFT-2026-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-6",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-NVDA-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-4",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-NVDA-2026-5",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-NVDA-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-6",
+        "first_relevant_rank": 2
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "xbrl-AAPL-2025-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AAPL-2025-net-income",
+        "first_relevant_rank": 9
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-income",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-AAPL-2025-gross-profit",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AAPL-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-cash-flow",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AAPL-2026-net-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-income",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-AAPL-2026-gross-profit",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-r-d-expense",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-AAPL-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2026-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AAPL-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-AMZN-2024-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-net-income",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AMZN-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-net-income",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-AMZN-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2024-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-GOOGL-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-GOOGL-2025-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2025-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-GOOGL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-JPM-2025-revenue",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-JPM-2025-net-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-JPM-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-JPM-2025-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-JPM-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-META-2024-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-META-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-META-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-gross-profit",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2026-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2026-gross-profit",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-MSFT-2026-r-d-expense",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-MSFT-2026-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-cash-flow",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-MSFT-2026-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-MSFT-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-revenue",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-NVDA-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-gross-profit",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-NVDA-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-revenue",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2026-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2026-gross-profit",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-NVDA-2026-r-d-expense",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-NVDA-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-NVDA-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2024-gross-profit",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-eps-diluted",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2024-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-income",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2025-gross-profit",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-eps-diluted",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-total-assets",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-TSLA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "m-tsla-2025-incident-testing",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "m-tsla-2025-iso-cert",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-4",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-AAPL-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-4",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-AMZN-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-4",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-GOOGL-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-1",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "syn-JPM-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-3",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-JPM-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-1",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-META-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-4",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-META-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-6",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "syn-MSFT-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-2",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-MSFT-2026-3",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-MSFT-2026-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-4",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-NVDA-2026-5",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "syn-NVDA-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-6",
+        "first_relevant_rank": 0
+      }
+    ],
+    "routed": [
+      {
+        "id": "xbrl-AAPL-2025-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AAPL-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2025-total-assets",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-AAPL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AAPL-2026-net-income",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-income",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AAPL-2026-gross-profit",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-AAPL-2026-r-d-expense",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AAPL-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AAPL-2026-total-assets",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-AAPL-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2024-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2024-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2024-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-AMZN-2025-net-income",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-AMZN-2025-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-AMZN-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2024-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2024-operating-cash-flow",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-GOOGL-2024-total-assets",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-GOOGL-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-GOOGL-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-GOOGL-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-GOOGL-2025-operating-cash-flow",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-GOOGL-2025-total-assets",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-GOOGL-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-JPM-2025-revenue",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-JPM-2025-net-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-JPM-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-JPM-2025-operating-cash-flow",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "xbrl-JPM-2025-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-META-2024-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2024-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2024-total-assets",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-META-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-META-2025-revenue",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-r-d-expense",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-META-2025-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-total-assets",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-META-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-MSFT-2025-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-gross-profit",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-r-d-expense",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-MSFT-2025-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-total-assets",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-income",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-MSFT-2026-gross-profit",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-MSFT-2026-r-d-expense",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-MSFT-2026-eps-diluted",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-operating-cash-flow",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-total-assets",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-MSFT-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-revenue",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-net-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-NVDA-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-NVDA-2025-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-operating-cash-flow",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-total-assets",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-NVDA-2026-net-income",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-income",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-NVDA-2026-gross-profit",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "xbrl-NVDA-2026-r-d-expense",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-NVDA-2026-eps-diluted",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-operating-cash-flow",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-NVDA-2026-total-assets",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-NVDA-2026-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-revenue",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-net-income",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-income",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2024-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2024-eps-diluted",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "xbrl-TSLA-2024-operating-cash-flow",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2024-total-assets",
+        "first_relevant_rank": 8
+      },
+      {
+        "id": "xbrl-TSLA-2024-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "xbrl-TSLA-2025-revenue",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-TSLA-2025-net-income",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-income",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "xbrl-TSLA-2025-gross-profit",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2025-r-d-expense",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "xbrl-TSLA-2025-eps-diluted",
+        "first_relevant_rank": 7
+      },
+      {
+        "id": "xbrl-TSLA-2025-operating-cash-flow",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "xbrl-TSLA-2025-total-assets",
+        "first_relevant_rank": 9
+      },
+      {
+        "id": "xbrl-TSLA-2025-cash-and-cash-equivalents",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "m-tsla-2025-incident-testing",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "m-tsla-2025-iso-cert",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-4",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-AAPL-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AAPL-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-4",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-AMZN-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-AMZN-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-4",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-GOOGL-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-GOOGL-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-1",
+        "first_relevant_rank": 5
+      },
+      {
+        "id": "syn-JPM-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-3",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-JPM-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-JPM-2025-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-1",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "syn-META-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-4",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-META-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-META-2025-6",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "syn-MSFT-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-2",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-MSFT-2026-3",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "syn-MSFT-2026-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-MSFT-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-NVDA-2026-4",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "syn-NVDA-2026-5",
+        "first_relevant_rank": 4
+      },
+      {
+        "id": "syn-NVDA-2026-6",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-1",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-2",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-3",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-4",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-5",
+        "first_relevant_rank": 0
+      },
+      {
+        "id": "syn-TSLA-2025-6",
+        "first_relevant_rank": 0
+      }
+    ]
+  }
+}

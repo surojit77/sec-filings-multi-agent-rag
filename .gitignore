@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Secrets: never commit
+.env
+
+# Large or regenerable data
+data/
+eval/results/
+
+# Zip bundles and downloads
+*.zip
+
+# macOS
+.DS_Store

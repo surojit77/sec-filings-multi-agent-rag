@@ -1,0 +1,7 @@
+# Hand-written queries for things XBRL can't label (risk factors, strategy, MD&A explanations).
+# Copy to eval/queries_manual.jsonl and write ~30-50 of your own.
+# evidence_strings: 1-3 short phrases copied VERBATIM from the filing passage that answers the question
+# (open the filing, find the answer, copy a distinctive phrase). A retrieved chunk counts as relevant
+# if it belongs to `ticker` and contains any of them. Lines starting with # are ignored.
+{"id": "m-aapl-2024-supply-chain", "type": "manual", "question": "What supply chain risks does Apple describe in its fiscal 2024 10-K?", "ticker": "AAPL", "fiscal_year": 2024, "form": "10-K", "evidence_strings": ["<distinctive phrase copied from the Risk Factors section>"]}
+{"id": "m-msft-2024-ai-capex", "type": "manual", "question": "How does Microsoft explain the growth in its capital expenditures in fiscal 2024?", "ticker": "MSFT", "fiscal_year": 2024, "form": "10-K", "evidence_strings": ["<distinctive phrase copied from MD&A>"]}

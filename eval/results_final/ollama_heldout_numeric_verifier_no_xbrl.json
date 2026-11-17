@@ -1,0 +1,2039 @@
+{
+  "summary": {
+    "verifier_no_xbrl": {
+      "n": 83,
+      "numeric_accuracy": 0.9036144578313253,
+      "coverage": 0.9759036144578314,
+      "precision_when_answering": 0.9259259259259259,
+      "confident_errors": 0.07228915662650602,
+      "gold_in_evidence": 0.9518072289156626,
+      "claim_faithfulness": 0.9878048780487805,
+      "claims_per_answer": 0.9879518072289156,
+      "abstain_rate": 0.024096385542168676,
+      "avg_rounds": 0.10843373493975904,
+      "p50_latency_s": 31.578736792085692
+    }
+  },
+  "rows": [
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2025-r-d-expense",
+      "question": "What was Apple Inc.'s research and development expense for fiscal year 2025?",
+      "answer": "Apple Inc.'s research and development expense for fiscal year 2025 was $34,550 million. [1]",
+      "gold_value": 34550000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 19.94,
+      "kept_claims": [
+        "Apple Inc.'s research and development expense for fiscal year 2025 was $34,550 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [AAPL 10-K 2025]; 'What was Apple Inc.'s research and development expense for fiscal year 2025?' [AAPL 10-K 2025]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2025-eps-diluted",
+      "question": "What was Apple Inc.'s diluted earnings per share for fiscal year 2025?",
+      "answer": "Apple Inc.'s diluted earnings per share for fiscal year 2025 was 7.46. [1]",
+      "gold_value": 7.46,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 16.21,
+      "kept_claims": [
+        "Apple Inc.'s diluted earnings per share for fiscal year 2025 was 7.46."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [AAPL 10-K 2025]; 'What was Apple Inc.'s diluted earnings per share for fiscal year 2025?' [AAPL 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2025-operating-cash-flow",
+      "question": "What was Apple Inc.'s operating cash flow for fiscal year 2025?",
+      "answer": "Apple Inc.'s operating cash flow for fiscal year 2025 was $111,482 million. [1]",
+      "gold_value": 111482000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 20.73,
+      "kept_claims": [
+        "Apple Inc.'s operating cash flow for fiscal year 2025 was $111,482 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [AAPL 10-K 2025]; 'What was Apple Inc.'s operating cash flow for fiscal year 2025?' [AAPL 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2025-total-assets",
+      "question": "What were Apple Inc.'s total assets at the end of fiscal year 2025?",
+      "answer": "Apple Inc.'s total assets at the end of fiscal year 2025 were $359,241 million. [1]",
+      "gold_value": 359241000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 16.41,
+      "kept_claims": [
+        "Apple Inc.'s total assets at the end of fiscal year 2025 were $359,241 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [AAPL 10-K 2025]; 'What were Apple Inc.'s total assets at the end of fiscal year 2025?' [AAPL 10-K 2025]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2026-revenue",
+      "question": "What was Apple Inc.'s total revenue (net sales) for fiscal year 2026?",
+      "answer": "Apple Inc.'s total revenue (net sales) for fiscal year 2026 was $478,834 million. [1]",
+      "gold_value": 478834000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 15.29,
+      "kept_claims": [
+        "Apple Inc.'s total revenue (net sales) for fiscal year 2026 was $478,834 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2026' [AAPL 10-K 2026]; 'What was Apple Inc.'s total revenue (net sales) for fiscal year 2026?' [AAPL 10-K 2026]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2026-net-income",
+      "question": "What was Apple Inc.'s net income for fiscal year 2026?",
+      "answer": "Apple Inc.'s net income for fiscal year 2026 was $132,175 million. [1]",
+      "gold_value": 132175000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 16.31,
+      "kept_claims": [
+        "Apple Inc.'s net income for fiscal year 2026 was $132,175 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [AAPL 10-K ]; 'What was Apple Inc.'s net income for fiscal year 2026?' [AAPL 10-K ]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2026-operating-income",
+      "question": "What was Apple Inc.'s operating income for fiscal year 2026?",
+      "answer": "Apple Inc.'s operating income for fiscal year 2026 was $158,063 million. [1]",
+      "gold_value": 158063000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 22.25,
+      "kept_claims": [
+        "Apple Inc.'s operating income for fiscal year 2026 was $158,063 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [AAPL 10-K ]; 'What was Apple Inc.'s operating income for fiscal year 2026?' [AAPL 10-K ]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2026-eps-diluted",
+      "question": "What was Apple Inc.'s diluted earnings per share for fiscal year 2026?",
+      "answer": "Apple Inc.'s diluted earnings per share for fiscal year 2026 was $8.98. [1]",
+      "gold_value": 8.98,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 25.66,
+      "kept_claims": [
+        "Apple Inc.'s diluted earnings per share for fiscal year 2026 was $8.98."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [AAPL 10-K ]; 'What was Apple Inc.'s diluted earnings per share for fiscal year 2026?' [AAPL 10-K ]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AAPL-2026-total-assets",
+      "question": "What were Apple Inc.'s total assets at the end of fiscal year 2026?",
+      "answer": "Apple Inc.'s total assets at the end of fiscal year 2026 were $404,548 million. [1]",
+      "gold_value": 404548000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 23.14,
+      "kept_claims": [
+        "Apple Inc.'s total assets at the end of fiscal year 2026 were $404,548 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [AAPL 10-K 2026]; 'What were Apple Inc.'s total assets at the end of fiscal year 2026?' [AAPL 10-K 2026]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2024-revenue",
+      "question": "What was AMAZON COM INC's total revenue (net sales) for fiscal year 2024?",
+      "answer": "AMAZON COM INC's total revenue (net sales) for fiscal year 2024 was $637,959 million. [1][2]",
+      "gold_value": 637959000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 30.19,
+      "kept_claims": [
+        "AMAZON COM INC's total revenue (net sales) for fiscal year 2024 was $637,959 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2024' [AMZN 10-K 2024]; 'What was AMAZON COM INC's total revenue (net sales) for fiscal year 2024?' [AMZN 10-K 2024]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2024-net-income",
+      "question": "What was AMAZON COM INC's net income for fiscal year 2024?",
+      "answer": "AMAZON COM INC's net income for fiscal year 2024 was $59,248 million. [1]",
+      "gold_value": 59248000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.8,
+      "kept_claims": [
+        "AMAZON COM INC's net income for fiscal year 2024 was $59,248 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [AMZN 10-K 2024]; 'What was AMAZON COM INC's net income for fiscal year 2024?' [AMZN 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2024-operating-income",
+      "question": "What was AMAZON COM INC's operating income for fiscal year 2024?",
+      "answer": "AMAZON COM INC's operating income for fiscal year 2024 was $68,593 million. [1][2]",
+      "gold_value": 68593000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.02,
+      "kept_claims": [
+        "AMAZON COM INC's operating income for fiscal year 2024 was $68,593 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [AMZN 10-K 2024]; 'What was AMAZON COM INC's operating income for fiscal year 2024?' [AMZN 10-K 2024]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2024-eps-diluted",
+      "question": "What was AMAZON COM INC's diluted earnings per share for fiscal year 2024?",
+      "answer": "AMAZON COM INC's diluted earnings per share for fiscal year 2024 was $5.53. [1]",
+      "gold_value": 5.53,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.28,
+      "kept_claims": [
+        "AMAZON COM INC's diluted earnings per share for fiscal year 2024 was $5.53."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [AMZN 10-K 2024]; 'What was AMAZON COM INC's diluted earnings per share for fiscal year 2024?' [AMZN 10-K 2024]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2024-operating-cash-flow",
+      "question": "What was AMAZON COM INC's operating cash flow for fiscal year 2024?",
+      "answer": "Amazon COM INC's operating cash flow for fiscal year 2024 was $115,877 million. [1][2][3]",
+      "gold_value": 115877000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.43,
+      "kept_claims": [
+        "Amazon COM INC's operating cash flow for fiscal year 2024 was $115,877 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [AMZN 10-K 2024]; 'What was AMAZON COM INC's operating cash flow for fiscal year 2024?' [AMZN 10-K 2024]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2024-total-assets",
+      "question": "What were AMAZON COM INC's total assets at the end of fiscal year 2024?",
+      "answer": "AMAZON COM INC's total assets at the end of fiscal year 2024 were $624,894 million. [1]",
+      "gold_value": 624894000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.73,
+      "kept_claims": [
+        "AMAZON COM INC's total assets at the end of fiscal year 2024 were $624,894 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [AMZN 10-K 2024]; 'What were AMAZON COM INC's total assets at the end of fiscal year 2024?' [AMZN 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2024-cash-and-cash-equivalents",
+      "question": "What were AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2024?",
+      "answer": "AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2024 were $78,779 million. [1]",
+      "gold_value": 78779000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 25.03,
+      "kept_claims": [
+        "AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2024 were $78,779 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents at the end of fiscal year 2024' [AMZN 10-K 2024]; 'What were AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2024?' [AMZN 10-K 2024]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2025-revenue",
+      "question": "What was AMAZON COM INC's total revenue (net sales) for fiscal year 2025?",
+      "answer": "AMAZON COM INC's total revenue (net sales) for fiscal year 2025 was $716,924 million. [1][2][3]",
+      "gold_value": 716924000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.66,
+      "kept_claims": [
+        "AMAZON COM INC's total revenue (net sales) for fiscal year 2025 was $716,924 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2025' [AMZN 10-K 2025]; 'What was AMAZON COM INC's total revenue (net sales) for fiscal year 2025?' [AMZN 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2025-operating-income",
+      "question": "What was AMAZON COM INC's operating income for fiscal year 2025?",
+      "answer": "AMAZON COM INC's operating income for fiscal year 2025 was $79,975 million. [1]",
+      "gold_value": 79975000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 19.57,
+      "kept_claims": [
+        "AMAZON COM INC's operating income for fiscal year 2025 was $79,975 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [AMZN 10-K 2025]; 'What was AMAZON COM INC's operating income for fiscal year 2025?' [AMZN 10-K 2025]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2025-eps-diluted",
+      "question": "What was AMAZON COM INC's diluted earnings per share for fiscal year 2025?",
+      "answer": "AMAZON COM INC's diluted earnings per share for fiscal year 2025 was 7.17. [1]",
+      "gold_value": 7.17,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 28.97,
+      "kept_claims": [
+        "AMAZON COM INC's diluted earnings per share for fiscal year 2025 was 7.17."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [AMZN 10-K 2025]; 'What was AMAZON COM INC's diluted earnings per share for fiscal year 2025?' [AMZN 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2025-total-assets",
+      "question": "What were AMAZON COM INC's total assets at the end of fiscal year 2025?",
+      "answer": "AMAZON COM INC's total assets at the end of fiscal year 2025 were $818,042 million. [1]",
+      "gold_value": 818042000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.42,
+      "kept_claims": [
+        "AMAZON COM INC's total assets at the end of fiscal year 2025 were $818,042 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [AMZN 10-K 2025]; 'What were AMAZON COM INC's total assets at the end of fiscal year 2025?' [AMZN 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-AMZN-2025-cash-and-cash-equivalents",
+      "question": "What were AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2025?",
+      "answer": "AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2025 were $86,810 million. [1]",
+      "gold_value": 86810000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 21.88,
+      "kept_claims": [
+        "AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2025 were $86,810 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents' [AMZN 10-K 2025]; 'What were AMAZON COM INC's cash and cash equivalents at the end of fiscal year 2025?' [AMZN 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2024-net-income",
+      "question": "What was Alphabet Inc.'s net income for fiscal year 2024?",
+      "answer": "Alphabet Inc.'s net income for fiscal year 2024 was $100,118 million. [1][2]",
+      "gold_value": 100118000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 31.58,
+      "kept_claims": [
+        "Alphabet Inc.'s net income for fiscal year 2024 was $100,118 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [GOOGL 10-K 2024]; 'What was Alphabet Inc.'s net income for fiscal year 2024?' [GOOGL 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2024-r-d-expense",
+      "question": "What was Alphabet Inc.'s research and development expense for fiscal year 2024?",
+      "answer": "Alphabet Inc.'s research and development expense for fiscal year 2024 was $49,326 million. [1]",
+      "gold_value": 49326000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 24.72,
+      "kept_claims": [
+        "Alphabet Inc.'s research and development expense for fiscal year 2024 was $49,326 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [GOOGL 10-K 2024]; 'What was Alphabet Inc.'s research and development expense for fiscal year 2024?' [GOOGL 10-K 2024]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2024-eps-diluted",
+      "question": "What was Alphabet Inc.'s diluted earnings per share for fiscal year 2024?",
+      "answer": "Alphabet Inc.'s diluted earnings per share for fiscal year 2024 was $8.04. [1][2]",
+      "gold_value": 8.04,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 33.0,
+      "kept_claims": [
+        "Alphabet Inc.'s diluted earnings per share for fiscal year 2024 was $8.04."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [GOOGL 10-K 2024]; 'What was Alphabet Inc.'s diluted earnings per share for fiscal year 2024?' [GOOGL 10-K 2024]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2024-operating-cash-flow",
+      "question": "What was Alphabet Inc.'s operating cash flow for fiscal year 2024?",
+      "answer": "I couldn't find verifiable support for an answer in the ingested filings.\n\n(1 claim(s) removed because they could not be verified against the filings.)",
+      "gold_value": 125299000000.0,
+      "numeric_correct": false,
+      "gold_in_evidence": false,
+      "claims": 0,
+      "judge_supported": null,
+      "rounds": 2,
+      "latency_s": 57.96,
+      "kept_claims": [],
+      "dropped_claims": [
+        "Alphabet Inc.'s operating cash flow for fiscal year 2024 was $112,390 million."
+      ],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [GOOGL 10-K 2024]; 'What was Alphabet Inc.'s operating cash flow for fiscal year 2024?' [GOOGL 10-K 2024]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=UNSUPPORTED | does not answer the question (missing: The claim is about operating cash flow, but the cited passage and XBRL facts provide information about income from operations, not cash flow. The question asks for operating cash flow, which is not directly stated or computable from the given information.)",
+        "retriever: +4 new chunks, 13 in context",
+        "analyst: 1 claims",
+        "verifier (round 1): C1=UNSUPPORTED | does not answer the question (missing: The claim is about operating cash flow, but the cited passage and XBRL facts provide information about income from operations, not cash flow. The question asks for operating cash flow, which is not directly stated or computable from the given information.)",
+        "retriever: +0 new chunks, 13 in context",
+        "analyst: 1 claims",
+        "verifier (round 2): C1=UNSUPPORTED | does not answer the question (missing: The claim is about operating cash flow, but the cited passage and XBRL facts provide information about income from operations, not cash flow. The question asks for operating cash flow, which is not directly stated or computable from the given information.)",
+        "finalize: kept 0, dropped 1"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2024-total-assets",
+      "question": "What were Alphabet Inc.'s total assets at the end of fiscal year 2024?",
+      "answer": "Alphabet Inc.'s total assets at the end of fiscal year 2024 were $450,256 million. [1]",
+      "gold_value": 450256000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.77,
+      "kept_claims": [
+        "Alphabet Inc.'s total assets at the end of fiscal year 2024 were $450,256 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [GOOGL 10-K 2024]; 'What were Alphabet Inc.'s total assets at the end of fiscal year 2024?' [GOOGL 10-K 2024]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2024-cash-and-cash-equivalents",
+      "question": "What were Alphabet Inc.'s cash and cash equivalents at the end of fiscal year 2024?",
+      "answer": "Alphabet Inc.'s cash and cash equivalents at the end of fiscal year 2024 were $23,466 million. [1]",
+      "gold_value": 23466000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 0,
+      "rounds": 0,
+      "latency_s": 30.95,
+      "kept_claims": [
+        "Alphabet Inc.'s cash and cash equivalents at the end of fiscal year 2024 were $23,466 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents' [GOOGL 10-K 2024]; 'What were Alphabet Inc.'s cash and cash equivalents at the end of fiscal year 2024?' [GOOGL 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2025-net-income",
+      "question": "What was Alphabet Inc.'s net income for fiscal year 2025?",
+      "answer": "Alphabet Inc.'s net income for fiscal year 2025 was $132,170 million. [1][2]",
+      "gold_value": 132170000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 30.74,
+      "kept_claims": [
+        "Alphabet Inc.'s net income for fiscal year 2025 was $132,170 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [GOOGL 10-K 2025]; 'What was Alphabet Inc.'s net income for fiscal year 2025?' [GOOGL 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2025-operating-income",
+      "question": "What was Alphabet Inc.'s operating income for fiscal year 2025?",
+      "answer": "Alphabet Inc.'s operating income for fiscal year 2025 was $129,039 million. [1][2]",
+      "gold_value": 129039000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 28.41,
+      "kept_claims": [
+        "Alphabet Inc.'s operating income for fiscal year 2025 was $129,039 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [GOOGL 10-K 2025]; 'What was Alphabet Inc.'s operating income for fiscal year 2025?' [GOOGL 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2025-r-d-expense",
+      "question": "What was Alphabet Inc.'s research and development expense for fiscal year 2025?",
+      "answer": "Alphabet Inc.'s research and development expense for fiscal year 2025 was $61,087 million. [1][2]",
+      "gold_value": 61087000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 23.34,
+      "kept_claims": [
+        "Alphabet Inc.'s research and development expense for fiscal year 2025 was $61,087 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [GOOGL 10-K 2025]; 'What was Alphabet Inc.'s research and development expense for fiscal year 2025?' [GOOGL 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2025-eps-diluted",
+      "question": "What was Alphabet Inc.'s diluted earnings per share for fiscal year 2025?",
+      "answer": "Alphabet Inc.'s diluted earnings per share for fiscal year 2025 was $10.81. [1]",
+      "gold_value": 10.81,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 28.01,
+      "kept_claims": [
+        "Alphabet Inc.'s diluted earnings per share for fiscal year 2025 was $10.81."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [GOOGL 10-K 2025]; 'What was Alphabet Inc.'s diluted earnings per share for fiscal year 2025?' [GOOGL 10-K 2025]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2025-operating-cash-flow",
+      "question": "What was Alphabet Inc.'s operating cash flow for fiscal year 2025?",
+      "answer": "Alphabet Inc.'s operating cash flow for fiscal year 2025 was $164,713 million. [1]",
+      "gold_value": 164713000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 2,
+      "latency_s": 63.01,
+      "kept_claims": [
+        "Alphabet Inc.'s operating cash flow for fiscal year 2025 was $164,713 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [GOOGL 10-K 2025]; 'What was Alphabet Inc.'s operating cash flow for fiscal year 2025?' [GOOGL 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=UNSUPPORTED | does not answer the question (missing: The claims are about fiscal year 2025, but the cited passage and XBRL facts do not provide any specific operating cash flow figure for that year. The passage discusses the sources and uses of cash, but does not give a specific number for operating cash flow.)",
+        "retriever: +4 new chunks, 13 in context",
+        "analyst: 1 claims",
+        "verifier (round 1): C1=UNSUPPORTED | does not answer the question (missing: The claims ask for operating cash flow in billions, but the cited passages and XBRL facts only provide the amount in millions. The claim also includes a specific unit ($164.7 billion) that is not supported by the evidence.)",
+        "retriever: +2 new chunks, 15 in context",
+        "analyst: 1 claims",
+        "verifier (round 2): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2025-total-assets",
+      "question": "What were Alphabet Inc.'s total assets at the end of fiscal year 2025?",
+      "answer": "Alphabet Inc.'s total long-lived assets at the end of fiscal year 2025 were $261,818 million. [1]\n\n(Note: this may not fully answer the question; still missing: The claim is about total long-lived assets, but the question asks for total assets. There is no information provided about other types of assets or total assets in the given passages..)",
+      "gold_value": 595281000000.0,
+      "numeric_correct": false,
+      "gold_in_evidence": false,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 2,
+      "latency_s": 59.68,
+      "kept_claims": [
+        "Alphabet Inc.'s total long-lived assets at the end of fiscal year 2025 were $261,818 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [GOOGL 10-K 2025]; 'What were Alphabet Inc.'s total assets at the end of fiscal year 2025?' [GOOGL 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 2 claims",
+        "verifier (round 0): C1=SUPPORTED, C2=SUPPORTED | does not answer the question (missing: The claims do not answer the question about total assets at the end of fiscal year 2025. They provide information about long-lived assets and investments with fair value changes, but not the total assets.)",
+        "retriever: +1 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 1): C1=SUPPORTED | does not answer the question (missing: The claim is about total long-lived assets, but the question asks for total assets. There is no information provided about other types of assets or total assets in the given passages.)",
+        "retriever: +2 new chunks, 12 in context",
+        "analyst: 1 claims",
+        "verifier (round 2): C1=SUPPORTED | does not answer the question (missing: The claim is about total long-lived assets, but the question asks for total assets. There is no information provided about other types of assets or total assets in the given passages.)",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-GOOGL-2025-cash-and-cash-equivalents",
+      "question": "What were Alphabet Inc.'s cash and cash equivalents at the end of fiscal year 2025?",
+      "answer": "Alphabet Inc. had $30,708 million in cash and cash equivalents at the end of fiscal year 2025. [1]",
+      "gold_value": 30708000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 25.24,
+      "kept_claims": [
+        "Alphabet Inc. had $30,708 million in cash and cash equivalents at the end of fiscal year 2025."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents' [GOOGL 10-K 2025]; 'What were Alphabet Inc.'s cash and cash equivalents at the end of fiscal year 2025?' [GOOGL 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-JPM-2025-eps-diluted",
+      "question": "What was JPMORGAN CHASE & CO's diluted earnings per share for fiscal year 2025?",
+      "answer": "JPMORGAN CHASE & CO's diluted earnings per share for fiscal year 2025 was $20.02. [1][2]",
+      "gold_value": 20.02,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 34.68,
+      "kept_claims": [
+        "JPMORGAN CHASE & CO's diluted earnings per share for fiscal year 2025 was $20.02."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [JPM 10-K 2025]; 'What was JPMORGAN CHASE & CO's diluted earnings per share for fiscal year 2025?' [JPM 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-JPM-2025-operating-cash-flow",
+      "question": "What was JPMORGAN CHASE & CO's operating cash flow for fiscal year 2025?",
+      "answer": "JPMorgan Chase & Co.'s net cash provided by operating activities for fiscal year 2025 was $44,468 million. [1] JPMorgan Chase & Co.'s net income for fiscal year 2025 was $57,048 million. [1]",
+      "gold_value": -147782000000.0,
+      "numeric_correct": false,
+      "gold_in_evidence": false,
+      "claims": 2,
+      "judge_supported": 2,
+      "rounds": 0,
+      "latency_s": 44.43,
+      "kept_claims": [
+        "JPMorgan Chase & Co.'s net cash provided by operating activities for fiscal year 2025 was $44,468 million.",
+        "JPMorgan Chase & Co.'s net income for fiscal year 2025 was $57,048 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [JPM 10-K 2025]; 'What was JPMORGAN CHASE & CO's operating cash flow for fiscal year 2025?' [JPM 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 2 claims",
+        "verifier (round 0): C1=SUPPORTED, C2=SUPPORTED",
+        "finalize: kept 2, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-JPM-2025-total-assets",
+      "question": "What were JPMORGAN CHASE & CO's total assets at the end of fiscal year 2025?",
+      "answer": "JPMORGAN CHASE & CO's total assets at the end of fiscal year 2025 were $4,431,624 million. [1][2]",
+      "gold_value": 4424900000000.0,
+      "numeric_correct": false,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 55.37,
+      "kept_claims": [
+        "JPMORGAN CHASE & CO's total assets at the end of fiscal year 2025 were $4,431,624 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [JPM 10-K 2025]; 'What were JPMORGAN CHASE & CO's total assets at the end of fiscal year 2025?' [JPM 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2024-revenue",
+      "question": "What was Meta Platforms, Inc.'s total revenue (net sales) for fiscal year 2024?",
+      "answer": "Meta Platforms, Inc.'s total revenue for fiscal year 2024 was $164,501 million. [1][2][3]",
+      "gold_value": 164501000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 30.47,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s total revenue for fiscal year 2024 was $164,501 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2024' [META 10-K 2024]; 'What was Meta Platforms, Inc.'s total revenue (net sales) for fiscal year 2024?' [META 10-K 2024]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2024-net-income",
+      "question": "What was Meta Platforms, Inc.'s net income for fiscal year 2024?",
+      "answer": "Meta Platforms, Inc.'s net income for fiscal year 2024 was $62,360 million. [1][2]",
+      "gold_value": 62360000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 34.59,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s net income for fiscal year 2024 was $62,360 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [META 10-K 2024]; 'What was Meta Platforms, Inc.'s net income for fiscal year 2024?' [META 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2024-r-d-expense",
+      "question": "What was Meta Platforms, Inc.'s research and development expense for fiscal year 2024?",
+      "answer": "Meta Platforms, Inc.'s research and development expense for fiscal year 2024 was $43,873 million. [1][2]",
+      "gold_value": 43873000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 30.64,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s research and development expense for fiscal year 2024 was $43,873 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [META 10-K 2024]; 'What was Meta Platforms, Inc.'s research and development expense for fiscal year 2024?' [META 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2024-operating-cash-flow",
+      "question": "What was Meta Platforms, Inc.'s operating cash flow for fiscal year 2024?",
+      "answer": "Meta Platforms, Inc.'s operating cash flow for fiscal year 2024 was $91,328 million. [1]",
+      "gold_value": 91328000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 37.05,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s operating cash flow for fiscal year 2024 was $91,328 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [META 10-K 2024]; 'What was Meta Platforms, Inc.'s operating cash flow for fiscal year 2024?' [META 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2024-total-assets",
+      "question": "What were Meta Platforms, Inc.'s total assets at the end of fiscal year 2024?",
+      "answer": "Meta Platforms, Inc.'s total assets at the end of fiscal year 2024 were $276,054 million. [1]",
+      "gold_value": 276054000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 31.94,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s total assets at the end of fiscal year 2024 were $276,054 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [META 10-K 2024]; 'What were Meta Platforms, Inc.'s total assets at the end of fiscal year 2024?' [META 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2025-revenue",
+      "question": "What was Meta Platforms, Inc.'s total revenue (net sales) for fiscal year 2025?",
+      "answer": "Meta Platforms, Inc.'s total revenue for fiscal year 2025 was $200,966 million. [1][2][3][4]",
+      "gold_value": 200966000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.6,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s total revenue for fiscal year 2025 was $200,966 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2025' [META 10-K 2025]; 'What was Meta Platforms, Inc.'s total revenue (net sales) for fiscal year 2025?' [META 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2025-r-d-expense",
+      "question": "What was Meta Platforms, Inc.'s research and development expense for fiscal year 2025?",
+      "answer": "Meta Platforms, Inc.'s research and development expense for fiscal year 2025 was $57,372 million. [1][2]",
+      "gold_value": 57372000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.58,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s research and development expense for fiscal year 2025 was $57,372 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [META 10-K 2025]; 'What was Meta Platforms, Inc.'s research and development expense for fiscal year 2025?' [META 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2025-eps-diluted",
+      "question": "What was Meta Platforms, Inc.'s diluted earnings per share for fiscal year 2025?",
+      "answer": "Meta Platforms, Inc.'s diluted earnings per share for fiscal year 2025 was $23.49. [1][2]",
+      "gold_value": 23.49,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 30.91,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s diluted earnings per share for fiscal year 2025 was $23.49."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [META 10-K 2025]; 'What was Meta Platforms, Inc.'s diluted earnings per share for fiscal year 2025?' [META 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2025-operating-cash-flow",
+      "question": "What was Meta Platforms, Inc.'s operating cash flow for fiscal year 2025?",
+      "answer": "Meta Platforms, Inc.'s operating cash flow for fiscal year 2025 was $115,800 million. [1][2]",
+      "gold_value": 115800000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 39.08,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s operating cash flow for fiscal year 2025 was $115,800 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [META 10-K 2025]; 'What was Meta Platforms, Inc.'s operating cash flow for fiscal year 2025?' [META 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2025-total-assets",
+      "question": "What were Meta Platforms, Inc.'s total assets at the end of fiscal year 2025?",
+      "answer": "Meta Platforms, Inc.'s total assets at the end of fiscal year 2025 were $366,021 million. [1]",
+      "gold_value": 366021000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 35.31,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s total assets at the end of fiscal year 2025 were $366,021 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [META 10-K 2025]; 'What were Meta Platforms, Inc.'s total assets at the end of fiscal year 2025?' [META 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-META-2025-cash-and-cash-equivalents",
+      "question": "What were Meta Platforms, Inc.'s cash and cash equivalents at the end of fiscal year 2025?",
+      "answer": "Meta Platforms, Inc.'s cash and cash equivalents at the end of fiscal year 2025 were $35,873 million. [1]",
+      "gold_value": 35873000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 36.47,
+      "kept_claims": [
+        "Meta Platforms, Inc.'s cash and cash equivalents at the end of fiscal year 2025 were $35,873 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents' [META 10-K 2025]; 'What were Meta Platforms, Inc.'s cash and cash equivalents at the end of fiscal year 2025?' [META 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2025-net-income",
+      "question": "What was MICROSOFT CORP's net income for fiscal year 2025?",
+      "answer": "Microsoft Corp's net income for fiscal year 2025 was $101,832 million. [1][2]",
+      "gold_value": 101832000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.39,
+      "kept_claims": [
+        "Microsoft Corp's net income for fiscal year 2025 was $101,832 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [MSFT 10-K 2025]; 'What was MICROSOFT CORP's net income for fiscal year 2025?' [MSFT 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2025-operating-income",
+      "question": "What was MICROSOFT CORP's operating income for fiscal year 2025?",
+      "answer": "Microsoft Corp's operating income for fiscal year 2025 was $128,528 million. [1][2]",
+      "gold_value": 128528000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.98,
+      "kept_claims": [
+        "Microsoft Corp's operating income for fiscal year 2025 was $128,528 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [MSFT 10-K 2025]; 'What was MICROSOFT CORP's operating income for fiscal year 2025?' [MSFT 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2025-r-d-expense",
+      "question": "What was MICROSOFT CORP's research and development expense for fiscal year 2025?",
+      "answer": "Microsoft Corp's research and development expense for fiscal year 2025 was $32,488 million. [1]",
+      "gold_value": 32488000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 23.41,
+      "kept_claims": [
+        "Microsoft Corp's research and development expense for fiscal year 2025 was $32,488 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [MSFT 10-K 2025]; 'What was MICROSOFT CORP's research and development expense for fiscal year 2025?' [MSFT 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2025-eps-diluted",
+      "question": "What was MICROSOFT CORP's diluted earnings per share for fiscal year 2025?",
+      "answer": "Microsoft Corp's diluted earnings per share for fiscal year 2025 was 13.64. [1][2][3]",
+      "gold_value": 13.64,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.79,
+      "kept_claims": [
+        "Microsoft Corp's diluted earnings per share for fiscal year 2025 was 13.64."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [MSFT 10-K 2025]; 'What was MICROSOFT CORP's diluted earnings per share for fiscal year 2025?' [MSFT 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2025-total-assets",
+      "question": "What were MICROSOFT CORP's total assets at the end of fiscal year 2025?",
+      "answer": "Microsoft Corp's total assets at the end of fiscal year 2025 were $619,003 million. [1]",
+      "gold_value": 619003000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 36.23,
+      "kept_claims": [
+        "Microsoft Corp's total assets at the end of fiscal year 2025 were $619,003 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [MSFT 10-K 2025]; 'What were MICROSOFT CORP's total assets at the end of fiscal year 2025?' [MSFT 10-K 2025]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-revenue",
+      "question": "What was MICROSOFT CORP's total revenue (net sales) for fiscal year 2026?",
+      "answer": "Microsoft Corp's total revenue (net sales) for fiscal year 2026 was $331,839 million. [1][2]",
+      "gold_value": 331839000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 31.81,
+      "kept_claims": [
+        "Microsoft Corp's total revenue (net sales) for fiscal year 2026 was $331,839 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2026' [MSFT 10-K ]; 'What was MICROSOFT CORP's total revenue (net sales) for fiscal year 2026?' [MSFT 10-K ]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-net-income",
+      "question": "What was MICROSOFT CORP's net income for fiscal year 2026?",
+      "answer": "Microsoft Corp's net income for fiscal year 2026 was $133,749 million. [1][2]",
+      "gold_value": 133749000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 33.06,
+      "kept_claims": [
+        "Microsoft Corp's net income for fiscal year 2026 was $133,749 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [MSFT 10-K ]; 'What was MICROSOFT CORP's net income for fiscal year 2026?' [MSFT 10-K ]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-operating-income",
+      "question": "What was MICROSOFT CORP's operating income for fiscal year 2026?",
+      "answer": "Microsoft Corp's operating income for fiscal year 2026 was $155,237 million. [1][2][3]",
+      "gold_value": 155237000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 37.55,
+      "kept_claims": [
+        "Microsoft Corp's operating income for fiscal year 2026 was $155,237 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [MSFT 10-K ]; 'What was MICROSOFT CORP's operating income for fiscal year 2026?' [MSFT 10-K ]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-gross-profit",
+      "question": "What was MICROSOFT CORP's gross profit for fiscal year 2026?",
+      "answer": "Microsoft Corp's gross profit for fiscal year 2026 was $225,465 million. [1][2]",
+      "gold_value": 225465000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 34.11,
+      "kept_claims": [
+        "Microsoft Corp's gross profit for fiscal year 2026 was $225,465 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'gross profit' [MSFT 10-K ]; 'What was MICROSOFT CORP's gross profit for fiscal year 2026?' [MSFT 10-K ]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-r-d-expense",
+      "question": "What was MICROSOFT CORP's research and development expense for fiscal year 2026?",
+      "answer": "Microsoft Corp's research and development expense for fiscal year 2026 was $35,562 million. [1]",
+      "gold_value": 35562000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 21.85,
+      "kept_claims": [
+        "Microsoft Corp's research and development expense for fiscal year 2026 was $35,562 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [MSFT 10-K ]; 'What was MICROSOFT CORP's research and development expense for fiscal year 2026?' [MSFT 10-K ]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-operating-cash-flow",
+      "question": "What was MICROSOFT CORP's operating cash flow for fiscal year 2026?",
+      "answer": "Microsoft Corp's operating cash flow for fiscal year 2026 was $182,935 million. [1][2]",
+      "gold_value": 182935000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 46.0,
+      "kept_claims": [
+        "Microsoft Corp's operating cash flow for fiscal year 2026 was $182,935 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [MSFT 10-K ]; 'What was MICROSOFT CORP's operating cash flow for fiscal year 2026?' [MSFT 10-K ]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-total-assets",
+      "question": "What were MICROSOFT CORP's total assets at the end of fiscal year 2026?",
+      "answer": "Microsoft Corp's total assets at the end of fiscal year 2026 were $758,376 million. [1]",
+      "gold_value": 758376000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 37.53,
+      "kept_claims": [
+        "Microsoft Corp's total assets at the end of fiscal year 2026 were $758,376 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [MSFT 10-K 2026]; 'What were MICROSOFT CORP's total assets at the end of fiscal year 2026?' [MSFT 10-K 2026]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-MSFT-2026-cash-and-cash-equivalents",
+      "question": "What were MICROSOFT CORP's cash and cash equivalents at the end of fiscal year 2026?",
+      "answer": "MICROSOFT CORP's cash and cash equivalents at the end of fiscal year 2026 were $20,935 million. [1]",
+      "gold_value": 20935000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 35.85,
+      "kept_claims": [
+        "MICROSOFT CORP's cash and cash equivalents at the end of fiscal year 2026 were $20,935 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents' [MSFT 10-K 2026]; 'What were MICROSOFT CORP's cash and cash equivalents at the end of fiscal year 2026?' [MSFT 10-K 2026]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2025-revenue",
+      "question": "What was NVIDIA CORP's total revenue (net sales) for fiscal year 2025?",
+      "answer": "NVIDIA CORP's total revenue for fiscal year 2025 was $130,497 million. [1]",
+      "gold_value": 130497000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 25.9,
+      "kept_claims": [
+        "NVIDIA CORP's total revenue for fiscal year 2025 was $130,497 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2025' [NVDA 10-K 2025]; 'What was NVIDIA CORP's total revenue (net sales) for fiscal year 2025?' [NVDA 10-K 2025]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2025-net-income",
+      "question": "What was NVIDIA CORP's net income for fiscal year 2025?",
+      "answer": "NVIDIA CORP's net income for fiscal year 2025 was $72,880 million. [1][2]",
+      "gold_value": 72880000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.97,
+      "kept_claims": [
+        "NVIDIA CORP's net income for fiscal year 2025 was $72,880 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [NVDA 10-K 2025]; 'What was NVIDIA CORP's net income for fiscal year 2025?' [NVDA 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2025-gross-profit",
+      "question": "What was NVIDIA CORP's gross profit for fiscal year 2025?",
+      "answer": "NVIDIA CORP's gross profit for fiscal year 2025 was $97,858 million. [1][2]",
+      "gold_value": 97858000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 31.13,
+      "kept_claims": [
+        "NVIDIA CORP's gross profit for fiscal year 2025 was $97,858 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'gross profit' [NVDA 10-K 2025]; 'What was NVIDIA CORP's gross profit for fiscal year 2025?' [NVDA 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2025-r-d-expense",
+      "question": "What was NVIDIA CORP's research and development expense for fiscal year 2025?",
+      "answer": "NVIDIA CORP's research and development expense for fiscal year 2025 was $12,914 million. [1]",
+      "gold_value": 12914000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 22.27,
+      "kept_claims": [
+        "NVIDIA CORP's research and development expense for fiscal year 2025 was $12,914 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'research and development expense' [NVDA 10-K 2025]; 'What was NVIDIA CORP's research and development expense for fiscal year 2025?' [NVDA 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2025-operating-cash-flow",
+      "question": "What was NVIDIA CORP's operating cash flow for fiscal year 2025?",
+      "answer": "NVIDIA CORP's net cash provided by operating activities for fiscal year 2025 was $64,089 million. [1]",
+      "gold_value": 64089000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 1,
+      "latency_s": 54.1,
+      "kept_claims": [
+        "NVIDIA CORP's net cash provided by operating activities for fiscal year 2025 was $64,089 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [NVDA 10-K 2025]; 'What was NVIDIA CORP's operating cash flow for fiscal year 2025?' [NVDA 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=UNSUPPORTED | does not answer the question (missing: The claims and cited passages do not provide a specific operating cash flow figure for fiscal year 2025. The passage P1 provides net cash provided by operating activities, which is not the same as operating cash flow. The claim C1 is unsupported by the provided evidence.)",
+        "retriever: +5 new chunks, 14 in context",
+        "analyst: 1 claims",
+        "verifier (round 1): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2025-total-assets",
+      "question": "What were NVIDIA CORP's total assets at the end of fiscal year 2025?",
+      "answer": "NVIDIA CORP's total assets at the end of fiscal year 2025 were $111,601 million. [1]",
+      "gold_value": 111601000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 26.98,
+      "kept_claims": [
+        "NVIDIA CORP's total assets at the end of fiscal year 2025 were $111,601 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [NVDA 10-K 2025]; 'What were NVIDIA CORP's total assets at the end of fiscal year 2025?' [NVDA 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2025-cash-and-cash-equivalents",
+      "question": "What were NVIDIA CORP's cash and cash equivalents at the end of fiscal year 2025?",
+      "answer": "NVIDIA CORP's cash and cash equivalents at the end of fiscal year 2025 were $8,589 million. [1][2]",
+      "gold_value": 8589000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 27.82,
+      "kept_claims": [
+        "NVIDIA CORP's cash and cash equivalents at the end of fiscal year 2025 were $8,589 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents' [NVDA 10-K 2025]; 'What were NVIDIA CORP's cash and cash equivalents at the end of fiscal year 2025?' [NVDA 10-K 2025]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2026-revenue",
+      "question": "What was NVIDIA CORP's total revenue (net sales) for fiscal year 2026?",
+      "answer": "NVIDIA CORP's total revenue (net sales) for fiscal year 2026 was $215.9 billion. [1][2]",
+      "gold_value": 215938000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 31.86,
+      "kept_claims": [
+        "NVIDIA CORP's total revenue (net sales) for fiscal year 2026 was $215.9 billion."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales) for fiscal year 2026' [NVDA 10-K 2026]; 'What was NVIDIA CORP's total revenue (net sales) for fiscal year 2026?' [NVDA 10-K 2026]",
+        "retriever: +8 new chunks, 8 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2026-gross-profit",
+      "question": "What was NVIDIA CORP's gross profit for fiscal year 2026?",
+      "answer": "NVIDIA CORP's gross profit for fiscal year 2026 was $153,463 million. [1][2]",
+      "gold_value": 153463000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 32.23,
+      "kept_claims": [
+        "NVIDIA CORP's gross profit for fiscal year 2026 was $153,463 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'gross profit' [NVDA 10-K 2026]; 'What was NVIDIA CORP's gross profit for fiscal year 2026?' [NVDA 10-K 2026]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2026-eps-diluted",
+      "question": "What was NVIDIA CORP's diluted earnings per share for fiscal year 2026?",
+      "answer": "NVIDIA CORP's diluted earnings per share for fiscal year 2026 was $4.90. [1][2]",
+      "gold_value": 4.9,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 69.4,
+      "kept_claims": [
+        "NVIDIA CORP's diluted earnings per share for fiscal year 2026 was $4.90."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [NVDA 10-K 2026]; 'What was NVIDIA CORP's diluted earnings per share for fiscal year 2026?' [NVDA 10-K 2026]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-NVDA-2026-total-assets",
+      "question": "What were NVIDIA CORP's total assets at the end of fiscal year 2026?",
+      "answer": "NVIDIA CORP's total assets at the end of fiscal year 2026 were $206,803 million. [1]",
+      "gold_value": 206803000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 31.96,
+      "kept_claims": [
+        "NVIDIA CORP's total assets at the end of fiscal year 2026 were $206,803 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [NVDA 10-K 2026]; 'What were NVIDIA CORP's total assets at the end of fiscal year 2026?' [NVDA 10-K 2026]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2024-revenue",
+      "question": "What was Tesla, Inc.'s total revenue (net sales) for fiscal year 2024?",
+      "answer": "Tesla, Inc.'s total revenue (net sales) for fiscal year 2024 was $97,690 million. [1][2]",
+      "gold_value": 97690000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 44.24,
+      "kept_claims": [
+        "Tesla, Inc.'s total revenue (net sales) for fiscal year 2024 was $97,690 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales)' [TSLA 10-K 2024]; 'What was Tesla, Inc.'s total revenue (net sales) for fiscal year 2024?' [TSLA 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2024-net-income",
+      "question": "What was Tesla, Inc.'s net income for fiscal year 2024?",
+      "answer": "Tesla, Inc.'s net income for fiscal year 2024 was $7,153 million. [1]",
+      "gold_value": 7091000000.0,
+      "numeric_correct": false,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 37.82,
+      "kept_claims": [
+        "Tesla, Inc.'s net income for fiscal year 2024 was $7,153 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [TSLA 10-K 2024]; 'What was Tesla, Inc.'s net income for fiscal year 2024?' [TSLA 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2024-operating-income",
+      "question": "What was Tesla, Inc.'s operating income for fiscal year 2024?",
+      "answer": "Tesla, Inc.'s operating income for fiscal year 2024 was $7,076 million. [1]",
+      "gold_value": 7076000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 39.58,
+      "kept_claims": [
+        "Tesla, Inc.'s operating income for fiscal year 2024 was $7,076 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [TSLA 10-K 2024]; 'What was Tesla, Inc.'s operating income for fiscal year 2024?' [TSLA 10-K 2024]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2024-operating-cash-flow",
+      "question": "What was Tesla, Inc.'s operating cash flow for fiscal year 2024?",
+      "answer": "Tesla, Inc.'s operating cash flow for fiscal year 2024 was $14,923 million. [1]",
+      "gold_value": 14923000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.29,
+      "kept_claims": [
+        "Tesla, Inc.'s operating cash flow for fiscal year 2024 was $14,923 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating cash flow' [TSLA 10-K 2024]; 'What was Tesla, Inc.'s operating cash flow for fiscal year 2024?' [TSLA 10-K 2024]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2025-revenue",
+      "question": "What was Tesla, Inc.'s total revenue (net sales) for fiscal year 2025?",
+      "answer": "Tesla, Inc.'s total revenue (net sales) for fiscal year 2025 was $92,614 million. [1]",
+      "gold_value": 94827000000.0,
+      "numeric_correct": false,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 31.31,
+      "kept_claims": [
+        "Tesla, Inc.'s total revenue (net sales) for fiscal year 2025 was $92,614 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total revenue (net sales)' [TSLA 10-K 2025]; 'What was Tesla, Inc.'s total revenue (net sales) for fiscal year 2025?' [TSLA 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2025-net-income",
+      "question": "What was Tesla, Inc.'s net income for fiscal year 2025?",
+      "answer": "Tesla, Inc.'s net income for fiscal year 2025 was $3,794 million. [1][2]",
+      "gold_value": 3794000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 36.94,
+      "kept_claims": [
+        "Tesla, Inc.'s net income for fiscal year 2025 was $3,794 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'net income' [TSLA 10-K 2025]; 'What was Tesla, Inc.'s net income for fiscal year 2025?' [TSLA 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2025-operating-income",
+      "question": "What was Tesla, Inc.'s operating income for fiscal year 2025?",
+      "answer": "Tesla, Inc.'s operating income for fiscal year 2025 was $4,355 million. [1]",
+      "gold_value": 4355000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 37.51,
+      "kept_claims": [
+        "Tesla, Inc.'s operating income for fiscal year 2025 was $4,355 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'operating income' [TSLA 10-K 2025]; 'What was Tesla, Inc.'s operating income for fiscal year 2025?' [TSLA 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2025-gross-profit",
+      "question": "What was Tesla, Inc.'s gross profit for fiscal year 2025?",
+      "answer": "Tesla, Inc.'s gross profit for fiscal year 2025 was $17,094 million. [1]",
+      "gold_value": 17094000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 34.71,
+      "kept_claims": [
+        "Tesla, Inc.'s gross profit for fiscal year 2025 was $17,094 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'gross profit' [TSLA 10-K 2025]; 'What was Tesla, Inc.'s gross profit for fiscal year 2025?' [TSLA 10-K 2025]",
+        "retriever: +10 new chunks, 10 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2025-eps-diluted",
+      "question": "What was Tesla, Inc.'s diluted earnings per share for fiscal year 2025?",
+      "answer": "I couldn't find verifiable support for an answer in the ingested filings.\n\n(1 claim(s) removed because they could not be verified against the filings.)",
+      "gold_value": 1.08,
+      "numeric_correct": false,
+      "gold_in_evidence": true,
+      "claims": 0,
+      "judge_supported": null,
+      "rounds": 2,
+      "latency_s": 72.6,
+      "kept_claims": [],
+      "dropped_claims": [
+        "Tesla, Inc.'s diluted earnings per share for fiscal year 2025 was $1.08."
+      ],
+      "trace": [
+        "planner: 2 sub-queries: 'diluted earnings per share' [TSLA 10-K 2025]; 'What was Tesla, Inc.'s diluted earnings per share for fiscal year 2025?' [TSLA 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=NO_EVIDENCE",
+        "retriever: +3 new chunks, 12 in context",
+        "analyst: 1 claims",
+        "verifier (round 1): C1=UNSUPPORTED | does not answer the question (missing: The claim provides the diluted earnings per share (EPS) for fiscal year 2025, but the question asks for the total net income used in computing basic and diluted net income per share of common stock for the same fiscal year. The claim does not provide the number of shares outstanding, which is necessary to calculate the diluted EPS, and the XBRL facts table is empty, so there is no additional information to derive this. The claim and the cited passage do not answer the same metric or topic as the question.)",
+        "retriever: +6 new chunks, 16 in context",
+        "analyst: 1 claims",
+        "verifier (round 2): C1=UNSUPPORTED | does not answer the question (missing: The claims and cited passages do not provide the diluted earnings per share (EPS) for Tesla, Inc. for fiscal year 2025. The passages provide the weighted average shares used in computing diluted EPS, but not the actual EPS value.)",
+        "finalize: kept 0, dropped 1"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2025-total-assets",
+      "question": "What were Tesla, Inc.'s total assets at the end of fiscal year 2025?",
+      "answer": "Tesla, Inc.'s total assets at the end of fiscal year 2025 were $3,134 million. [1]",
+      "gold_value": 137806000000.0,
+      "numeric_correct": false,
+      "gold_in_evidence": false,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 29.41,
+      "kept_claims": [
+        "Tesla, Inc.'s total assets at the end of fiscal year 2025 were $3,134 million."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'total assets' [TSLA 10-K 2025]; 'What were Tesla, Inc.'s total assets at the end of fiscal year 2025?' [TSLA 10-K 2025]",
+        "retriever: +9 new chunks, 9 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    },
+    {
+      "config": "verifier_no_xbrl",
+      "id": "xbrl-TSLA-2025-cash-and-cash-equivalents",
+      "question": "What were Tesla, Inc.'s cash and cash equivalents at the end of fiscal year 2025?",
+      "answer": "Tesla, Inc. had cash and cash equivalents of $16,513 million at the end of fiscal year 2025. [1]",
+      "gold_value": 16513000000.0,
+      "numeric_correct": true,
+      "gold_in_evidence": true,
+      "claims": 1,
+      "judge_supported": 1,
+      "rounds": 0,
+      "latency_s": 23.88,
+      "kept_claims": [
+        "Tesla, Inc. had cash and cash equivalents of $16,513 million at the end of fiscal year 2025."
+      ],
+      "dropped_claims": [],
+      "trace": [
+        "planner: 2 sub-queries: 'cash and cash equivalents' [TSLA 10-K 2025]; 'What were Tesla, Inc.'s cash and cash equivalents at the end of fiscal year 2025?' [TSLA 10-K 2025]",
+        "retriever: +7 new chunks, 7 in context",
+        "analyst: 1 claims",
+        "verifier (round 0): C1=SUPPORTED",
+        "finalize: kept 1, dropped 0"
+      ]
+    }
+  ]
+}
